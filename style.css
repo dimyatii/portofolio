@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+WAL&family=Tiny5&display=swap');
+
+
+/* span {
+    display: none;
+} */
+
+
+.nav-item a {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav-item:hover {
+    background-color: #eeeeee;
+}
+
+.offcanvas-header img {
+    width: 150px;
+}
+
+/* list menu */
+.nav-link.active-home {
+    color: rgb(119, 196, 5);
+}
+.nav-link.active-home:hover {
+    color: rgb(119, 196, 5);
+}
+
+.nav-link.active-profile {
+    color: rgb(119, 196, 5);
+}
+.nav-link.active-profile:hover {
+    color: rgb(119, 196, 5);
+}
+
+.dropdown-item.gallery {
+    color: rgb(119, 196, 5);
+}
+.dropdown-item.gallery:hover {
+    color: rgb(119, 196, 5);
+}
+
+.dropdown-item.contact {
+    color: rgb(119, 196, 5);
+}
+.dropdown-item.contact:hover {
+    color: rgb(119, 196, 5);
+}
+
+
+.nav-link.dropdown-toggle.optional {
+    color: rgb(119, 196, 5);
+}
+
+.nav-link.dropdown-toggle.optional:hover {
+    color: rgb(119, 196, 5);
+}
+
+
+
+
+/* HALAMAN HOME */
+
+.home {
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+    to right,
+    #4f7a52 0%,
+    #4f7a52 36%,
+    #729979  36%,
+    #729979 100%
+  );
+
+  padding-top: 200px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row-reverse;
+
+  padding-right: 13%;
+  padding-left: 27%;
+}
+
+
+
+.conteiner-home {
+    flex-direction: row;
+}
+
+.card-text {
+    font-size: 15px;
+    padding-left: 10px;
+    margin-top: 10px;
+    color: rgb(210, 247, 210);
+}
+
+.card-title {
+    margin-left: 53px;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.kartu {
+    width: 300px;
+    height: 450px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(41, 73, 44),
+                5px 5px 10px rgb(41, 73, 44);
+
+    background: linear-gradient(
+    to top,
+    rgb(223, 221, 221) 0%,
+    rgb(223, 221, 221) 15%,
+    #729979  15%,
+    #729979  100%
+  );
+}
+
+.isi-home {
+    width: 480px;
+    font-size: 18px;
+    font-family: Arial;
+    /* margin-right: 200px; */
+}
+
+.home-text-isi h2{
+    font-size: 100px;
+    font-family: arial;
+    font-weight: bold;
+    color: white;
+    margin-top: 50px;
+}
+
+
+.kartu {
+    margin-right: auto;
+    /* margin-left:475px; */
+}
+
+
+
+.kartu img {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin: 30px 55px;
+}
+
+
+.fa-solid.fa-user {
+    display: flex;
+    width: 20px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 9px;
+     color: #ffffff;
+  }
+
+  
+  .button p {
+      font-family: 'Times New Roman';
+      font-size: 20px;
+      width: 100px;
+      color: #ffffff;
+      margin-left: 50px;
+      
+  }
+  
+
+  .card-body i {
+    margin-left: 40px;
+  }
+  
+  .button {
+      width: 180px;
+      height: 35px;
+      border: none;
+      border-radius: 5px;
+      background-color: rgb(0, 132, 255);
+      margin-left: 10px;
+      border: solid rgb(16, 119, 189) 1px;
+      margin-top: 85px;
+      margin-left: 10px;
+  }
+
+  .button:hover {
+    background-color: rgb(35, 93, 218);
+  }
+
+.fa-brands.fa-instagram {
+    font-size: 30px;
+    margin-left: 10px;
+   float: left;
+
+}
+
+.sosmed {
+    display: flex;
+    height: 35px;
+    width: 170px;
+    border-radius: 5px;
+    align-items: center;
+    border: none;
+}
+.sosmed {
+    background-color: rgb(255, 238, 0);
+    margin-bottom: 100px;
+}
+
+.link-sosmed {
+    color: #000000;
+    width: 200px;
+    /* background-color: #0dd8df; */
+    font-size: 20px;
+    padding-top: 6px;
+    background-color: yellow;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.link-sosmed:hover {
+    color: #000000;
+    background-color: rgb(255, 208, 0);
+}
+
+
+/* halaman kedua */
+
+.profile {
+    background-color: #729979;
+    
+    width: 100%;
+    height: 100vh;
+    /* padding-top: 200px; */
+    align-content: center;
+}
+
+
+.col-md-4 img {
+ border-radius: 10px;
+ width: 350px;
+ margin-left: 50px;
+
+
+ box-shadow: 0 15px 20px rgb(98, 99, 156),
+             0 15px 20px rgb(122, 122, 122);
+
+}
+
+
+.col-md-4 img:hover {
+    width: 400px;
+    box-shadow: 0 25px 20px rgb(98, 99, 156),
+    0 25px 20px rgb(122, 122, 122);
+}
+
+.col-md-4 {
+    height: auto;
+    padding: 1% 0 1% 0 ;
+    align-content: center;
+}
+
+.title {
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    
+}
+
+.card-text-isi {
+    color: #4f7a52;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/* .card-text {
+    margin-bottom: 50px;
+} */
+
+/* HALAMAN KEEMPAT */
+
+.gallery {
+    max-width: 100% auto;
+    /* margin: 20px; */
+    /* background-color: black; */
+    background-color: #305832;
+}
+
+.gallery .title {
+    font-size: 25px;
+    background-color: #729979;
+    color: azure;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 15px;
+    padding-top: 80px;
+    align-content: center;
+}
+
+.image-container img {
+    width: 500px;
+}
+
+.gallery .image-container {
+    columns:3 250px ;
+    gap: 15px;
+}
+
+.gallery .image-container img {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+
+/* HALAMAN KELIMA */
+
+.contact {
+    background-color: #4f7a52;
+    height: 100vh;
+    width: 100%;
+    padding-left: 300px;
+    
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+}
+
+/* .contact-right img {
+    border-radius: 50%;
+    width: 300px;
+    position: relative;
+    left: 600px;
+    bottom: 359px;
+
+    box-shadow: 0 0 25px rgb(98, 99, 156),
+                0 0 50px rgb(255, 255, 255);
+} */
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    /* align-items: center; */
+}
+
+.contact-title h2 {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-bottom: 5px;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+.contact-title hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    background-color: #cdddd0;
+}
+
+.contact-left textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus {
+    border: 2px solid orange;
+}
+
+.contact-inputs::placeholder {
+    color: rgb(39, 38, 38);
+}
+
+.contact-left button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: rgb(248, 248, 248);
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#cdddd0,#769e78);
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+}
+
+
+
+
+
+/* 834 */
+@media(max-width: 834px) {
+
+.home {
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: inline-block;
+    /* max-width: 100% auto; */
+}
+
+.isi-home {
+    width: auto;
+    color: rgb(228, 228, 228);
+}
+
+.card-title {
+    margin-top: 120px;
+}
+
+.kartu {
+    height: 460px;
+    margin-top: 200px;
+}
+
+/* HALAMAN KEDUA */
+
+.col-md-4 img {
+    width: 200px;
+/*     margin-top: -150px; */
+}
+
+.col-md-4 img:hover {
+    width: 250px;
+}
+
+.card-body {
+    margin-top: -110px;
+}
+
+.col-md-4 {
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.profile {
+    background-color: white;
+    padding-top: 30px;
+}
+
+.col-md-4 img {
+    margin-top: 5%;
+    margin-bottom: 30%;
+}
+
+/* HALAMAN KEEMPAT */
+
+.gallery .title {
+    padding-top: 50PX;
+}
+/* HALAMAN KELIMA */
+
+.contact {
+    padding-left: 50px;
+}
+
+.contact-right img {
+    display: none;
+}
+
+.contact-inputs {
+    width: 300px;
+}
+
+.contact-title h2 {
+    padding-top: 20px;
+}
+
+.contact-left button {
+    margin-bottom: 70px;
+}
+}
+
+ 
